@@ -27,7 +27,7 @@ TARGET_BOARD_INFO_FILE := device/yu/jalebi/board-info.txt
 # Kernel
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_RAMDISK_OFFSET     := 0x01000000
-TARGET_KERNEL_CONFIG := lineageos_jalebi_defconfig
+TARGET_KERNEL_CONFIG := mokee_jalebi_defconfig
 
 # Bootchart
 ifeq ($(strip $(INIT_BOOTCHART)),true)
